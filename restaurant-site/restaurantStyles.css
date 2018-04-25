@@ -1,0 +1,38 @@
+body {
+    background-color: lightskyblue;
+}
+
+hr {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+#photo {
+    width:425px; 
+    height:175px;
+}
+
+
+input, label {
+	font-size: 18px;
+	font-family: Arial, Helvetica, serif;
+	font-weight: bold;
+}
+
+input[type=text] {
+	background-color: 		#d5d2cb;
+    border:		2px	solid darkblue;
+	width:		75%;
+	padding:	12px	20px;
+	margin:		8px 0;
+	box-sizing:	border-box;
+}
+
+#requiredField {
+    color: red
+}
+
+#contactForm {
+    font-style: bold;    
+}
