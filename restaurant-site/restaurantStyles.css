@@ -12,7 +12,23 @@ hr {
     width:425px; 
     height:175px;
 }
+/* 
+.container {
 
+    column-count: 1;
+} */
+
+#foodMenu {
+    border-spacing: 15px;
+}
+
+tr, th {
+    text-align: center
+}
+
+#container2  {
+    background: black;
+}
 
 input, label {
 	font-size: 18px;
@@ -36,3 +52,27 @@ input[type=text] {
 #contactForm {
     font-style: bold;    
 }
+
+
+/*unvisted link */
+a:link {
+    color: Green;
+}
+
+/*visted link*/ 
+a:visited {
+    color: yellow
+}
+ 
+/* mouse over link */  
+  a:hover {
+	color: black;
+    font-weight: bold;
+    font-size: 20px
+  }
+
+  /*selected link*/
+  a:active {
+      text-decoration: none;
+      color: orange;
+  }
