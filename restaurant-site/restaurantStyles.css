@@ -12,22 +12,15 @@ hr {
     width:425px; 
     height:175px;
 }
-/* 
-.container {
-
-    column-count: 1;
-} */
 
 #foodMenu {
     border-spacing: 15px;
 }
 
-tr, th {
-    text-align: center
-}
 
-#container2  {
-    background: black;
+#beverageMenu {
+    border-spacing: 15px;
+    background-color: red;
 }
 
 input, label {
