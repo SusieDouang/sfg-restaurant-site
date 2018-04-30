@@ -15,13 +15,11 @@ hr {
 
 #foodMenu {
     border-spacing: 15px;
+    text-align: center;
 }
 
-
-#beverageMenu {
-    border-spacing: 15px;
-    background-color: red;
-}
+#beverageMenu tr:nth-child(even){background-color: gray;}
+#beverageMenu tr:nth-child(odd){background-color: white;}
 
 input, label {
 	font-size: 18px;
